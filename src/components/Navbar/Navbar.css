@@ -1,0 +1,75 @@
+.navbar{
+  border-bottom: .5px solid #25252554;
+  padding-top: 30px !important;
+  padding-bottom: 10px !important;
+  
+}
+.top_nav{
+    height: 48px;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 300;
+    display: flex;
+    gap: 2px;
+}
+.top_nav .containerr{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 300px;
+}
+.inpt_search::placeholder{
+ font-size: 11px;
+}
+nav .icons a{
+  color: #000000 !important;
+  /* width: 50px; */
+  position: relative;
+}
+.navbar .icon{
+  font-size: 19px;
+  font-weight: bolder;
+  transition: .5s;
+}
+nav .icons div {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  background-color: #DB4444;
+  width: 12px;
+  height: 12px;
+  color: #000;
+  text-align: center;
+  display: flex;
+  align-items:center;
+  justify-content:center ;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 10px;
+  }
+nav .icons div b{
+  text-align: center;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: #ffffff;
+  font-size: 8px;
+  /* margin-bottom: ; */
+  /* padding-bottom: 0; */
+
+}
+
+.navbar .icon:hover{
+  color: #565555;
+}
+
+nav ul li a{
+  color:#000000;
+}
+nav ul li .active{
+  border-bottom: 2px solid #000;
+  border-radius: 4px;
+}

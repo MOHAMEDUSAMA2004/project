@@ -1,0 +1,60 @@
+
+.flashSales{
+    display: flex;
+    gap: 80px !important;
+}
+ .product_card{
+    width: calc((100%-45px)/4 ) !important ;
+    /* width:280px !important ; */
+    height: 300px;
+    box-sizing: border-box;
+    padding: 10px !important;
+
+
+}
+  .product_card .top{
+    background-color: #F5F5F5;
+    position: relative;
+    display: flex;
+    justify-content: center !important;
+    /* width: 300px; */
+}
+.product_card .top img{
+    width: 200px !important;
+    
+}
+
+ .product_card .top .icons{
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+ .product_card .top .icons .icon{
+    font-weight: 700 !important;
+    transition: .5s;
+    cursor: pointer;
+    font-size: 27px !important;
+    background-color: #ffffff;
+}
+ .product_card .top .icons .icon:hover{
+   background-color:#000;
+   color:#fff;
+   font-weight: bold;
+   transform: rotate(360deg)
+}
+
+ .product_card .top .add{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    opacity: 0;
+    /* height: 0 !important; */
+    transition: .7s !important;
+    /* visibility: hidden; */
+}
+ .product_card .top:hover .add{
+    /* visibility: inherit; */
+    opacity: 1;
+}
+
+

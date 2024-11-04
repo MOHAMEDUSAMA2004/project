@@ -1,0 +1,60 @@
+.cart tr{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    /* box-shadow: 1px 1px 1px 1px ; */
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 0px 0px, rgba(17, 17, 26, 0.1) 0px 0px 10px;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    transition: .5s;
+}
+
+
+.cart tr td , .cart tr th{
+box-sizing:border-box;
+/* background-color: aqua; */
+align-items:center;
+width: calc((100%)/4);
+}
+
+.cart tr td:last-child , .cart tr th:last-child{
+    display: flex;
+    justify-content: flex-end;
+}
+.cart tr td:last-child , .cart tr th:last-child{
+    display: flex;
+    justify-content: flex-end;
+}
+.cart tr td:nth-child(2) ,.cart tr td:nth-child(3) , .cart tr th:nth-child(2),.cart tr th:nth-child(3)  {
+    display: flex;
+    justify-content: center;
+}
+
+.cart tbody tr:hover .deleteCartItem{
+    display: flex !important;
+    height: 20px !important;;
+    width: 20px!important;
+}
+.checkout .first{
+    height: 40px;
+}
+.checkout .first button{
+    height: 100% !important;
+    border-radius: 4px;
+}
+.checkout .first{
+    display: flex;
+    gap: 15px;
+}
+.checkout{
+    display: flex;
+    justify-content: space-between;
+}
+.checkout .first input{
+    outline: none;
+    padding:0 20px;
+}
+.checkout .second{
+    border: 1px solid #000;
+    padding: 20px;
+}

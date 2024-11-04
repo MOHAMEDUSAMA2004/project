@@ -1,0 +1,27 @@
+.arrow1 , .arrow2{
+width: 2pc;
+height: 2pc;
+border-radius:50%;
+background-color: #F5F5F5;
+}
+.cats{
+    gap: 10px;
+
+}
+.cat{
+    border: 1px solid #000;
+    /* padding:0 10px !important; */
+    width:calc((100%)/6) ;
+    padding: 20px 0;
+    box-sizing: border-box;
+    transition: .5s;
+    
+}
+.cat:hover{
+  background-color: #DB4444;
+  color:#fff;
+}
+
+.cat:hover img{
+    filter: invert(100%) ;
+}

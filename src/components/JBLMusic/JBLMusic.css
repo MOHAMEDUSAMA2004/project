@@ -1,0 +1,37 @@
+.texts{
+    width:20%;
+}
+.time{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.time div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #fff;
+    width: calc((100%)/4);
+    box-sizing: border-box;
+    height: 50px;
+    gap: 0;
+    transition: .5s;
+}
+.time div:hover{
+    background-color: #000;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.time div span{
+    font-size: 9px;
+}
+.buy_now{
+    background-color: #00FF66 !important;
+    padding: 10px 40px !important;
+    color:#fff !important; 
+    width: max-content;
+}
+

@@ -1,0 +1,26 @@
+.signInfo input{
+    border: none;
+    border-bottom: 1px solid #0000006d ;
+    padding: 10px 0;
+    outline: none;
+}
+.signInfo input::placeholder{
+    font-size: 14px;
+}
+.forget{
+    text-decoration: none;
+    color: #DB4444;
+    margin-left: 4px;
+    font-size: 14px;
+}
+.btns .create:hover{
+    background-color: #fff !important;
+    border-color: #DB4444 !important;
+    color: #DB4444 !important;
+}
+.custom-modal .btn-close{
+    /* color: #fff;
+    background-color: #fff;
+    color: white; */
+    --bs-btn-close-color:white
+}

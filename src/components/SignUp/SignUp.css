@@ -1,0 +1,25 @@
+.signInfo input{
+    border: none;
+    border-bottom: 1px solid #0000006d ;
+    padding: 10px 0;
+    outline: none;
+}
+.signInfo input::placeholder{
+    font-size: 14px;
+}
+.login{
+    text-decoration: none;
+    color: #DB4444;
+    margin-left: 4px;
+}
+.create{
+    
+}
+.btns .create:hover{
+    background-color: #fff !important;
+    border-color: #DB4444 !important;
+    color: #DB4444 !important;
+}
+.btns .create:hover a{
+    color:#DB4444 !important;
+}

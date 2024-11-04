@@ -1,0 +1,56 @@
+
+.PlayStation{
+    background-image: url(../../assets/downs/PlayStation.png) !important;
+    background-size:contain ;
+    background-repeat: no-repeat;
+    background-position: right !important;
+    height: 600px !important;
+    /* width: 100%; */
+    /* width: 550px !important; */
+    display: flex;
+    align-items: end;
+    color: #fff;
+}
+.arrival a{
+     text-decoration: none;
+     color:#fff;
+     font-weight: 600;
+     text-align: start;
+}
+.Women_Collections{
+    background-image: url(../../assets/downs/WomenCollections.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 288px;
+    display: flex;
+    align-items:end;
+    color:#fff
+}
+.Women_Collections div{
+
+    /* width: 100% !important; */
+
+}
+.double div{
+   box-sizing: border-box;
+   /* width: calc((100%-10px)/2); */
+}
+.Perfume{
+    background-image:url(../../assets/downs/perfume.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items:end;
+    color: #fff;
+}
+.Speakers{
+    background-image:url(../../assets/downs/speakers.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items:end;
+    color: #fff;
+}

@@ -1,0 +1,48 @@
+.checkDetails .first{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+.checkDetails .first div{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+.checkDetails .first div input{
+    padding: 8px;
+    border: none;
+    outline: none;
+    background-color: #F5F5F5;
+    border-radius: 5px;
+}
+.checkDetails .first div label{
+ font-size: 14.5px;
+ color: #919191;
+}
+.checkDetails .first div .checkbox{
+    height: 20px;
+    width: 20px;
+    border:1px solid #000;
+    cursor: pointer;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    color:#fff;
+    transition: .5s;
+}
+.checked{
+    background-color: #DB4444;
+}
+.checkDetails .second .radio{
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border:1px solid #000
+}
+ .selected{
+    border:2.5px solid #fff !important;
+    outline: 1px solid #000;
+    background-color: #000;
+    width: 50px;
+    height: 50px;
+}
